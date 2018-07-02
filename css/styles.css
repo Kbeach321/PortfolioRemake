@@ -10,12 +10,70 @@ ul {
 list-style: none;
 }
 
+.container {
+  background-color: #F2EADF
+}
+
+/*---------- Navigation ------------*/
+
+.nav-link {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.header {
+  height: 50px;
+}
+
+.header ul {
+  margin-bottom: 0px;
+}
+.header ul li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+/*----------- Carousel ------------*/
+.carousel-inner {
+  max-height: 400px;
+}
+
+.carousel img {
+  height: 400px;
+}
+
+/*----------- Message ------------*/
 .message {
   text-align: center;
   padding: 10px 0px;
   color: #3B2817;
 }
 
+/*----------- Projects (Cards) --------------*/
+#projects {
+  margin: 0px -10px;
+}
+
+
+.card {
+  margin: 5px;
+  height: 450px;
+}
+
+.card img:hover {
+background-color: yellow;
+}
+
+/* Controls Image height of card */
+.card img {
+  height: 200px;
+}
+
+/*----------- Bottom Panels ------------*/
 #bottom_panels {
   margin: 10px 0px;
   text-align: justify;
@@ -23,32 +81,50 @@ list-style: none;
 
 #bottom_panels span {
   color: red;
+  text-align:right;
 }
 
 #bottom_panels h5 {
   text-align: center;
-
 }
 
-.carousel-inner {
-  height: 400px;
+#latest_project {
+  border-right: solid 2px;
 }
 
+#skills {
+  border-right: solid 2px;
+}
+
+#skills ul {
+list-style: initial;
+}
+
+
+/*----------- Footer -----------*/
 .footer {
   background-color: #3B2817;
   color: #fff;
-  padding: 10px 5px;
+  /* padding: 10px 5px; */
   margin-top: 5px;
 }
 
-#projects {
-  align-items: center;
-}
+/* .footer span {
+} */
 
-.container {
-  background-color: #F2EADF
-}
 
-.card {
-  margin: 5px;
+/*---------- Media Query --------------*/
+
+@media (max-width: 786px) {
+  #latest_project {
+    border-right: none;
+    border-bottom: solid 2px;
+    margin-bottom: 10px;
+  }
+
+  #skills {
+    border-right: none;
+    border-bottom: solid 2px;
+    margin-bottom: 10px;
+  }
 }

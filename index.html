@@ -16,24 +16,26 @@
 <body>
   <div class="container">
     <!-- Nav Bar  -->
-    <nav class="navbar fixed-top navbar-light bg-dark">
-      <a class="navbar-brand" href="#">Menu</a>
-      <div class="navbar-nav">
+    <div class="header">
+      <nav class="navbar fixed-top navbar-light bg-dark">
+        <a class="navbar-brand" href="#">Menu</a>
+        <div class="navbar-nav">
 
-        <a class="nav-link" href="#"> Home </a>
+          <a class="nav-link" href="#"> Home </a>
 
 
-        <a class="nav-link" href="#"> Portfolio </a>
+          <a class="nav-link" href="#"> Portfolio </a>
 
-        <a class="nav-link" href="#"> About Me </a>
-
-      </div>
-      <ul>
-        <p> Twitter </p>
-        <p> Linked in </p>
-        <p> Github </p>
-      </ul>
+          <a class="nav-link" href="#"> About Me </a>
+        </div>
+        <ul>
+          <li><a href="#"> Twitter </a></li>
+          <li><a href="#"> Linked in </a></li>
+          <li><a href="#"> Github </a></li>
+        </ul>
     </nav>
+  </div>
+    <!-- </div> -->
     <!-- BOOTSTRAP CAROUSEL -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -66,7 +68,7 @@
       <h4> GENERIC FEEL GOOD MESSAGE TO BE DETERMINED </h4> </div>
     <!-- Bottom Panels!  -->
     <div id="projects" class="row">
-      <div class="card col-md" style="width: 18rem;">
+      <div class="card col-12 col-md" style="width: 18rem;">
         <img class="card-img-top" src="./images/butt.jpeg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Project Name</h5>
@@ -74,7 +76,7 @@
           <a href="#" class="btn btn-primary">Link To Github</a>
         </div>
       </div>
-      <div class="card col-md" style="width: 18rem;">
+      <div class="card col-12 col-md" style="width: 18rem;">
         <img class="card-img-top" src="./images/halloween.jpeg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Project Name2</h5>
@@ -82,7 +84,7 @@
           <a href="#" class="btn btn-primary">Link To Github</a>
         </div>
       </div>
-      <div class="card col-md" style="width: 18rem;">
+      <div class="card col-12 col-md" style="width: 18rem;">
         <img class="card-img-top" src="./images/wink.jpeg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Project Name3</h5>
@@ -91,35 +93,44 @@
         </div>
       </div>
     </div>
-
     <div id="bottom_panels" class="row">
-      <div id="latest_project" class="col-4">
+      <div id="latest_project" class=" col-12 col-md-4">
         <h5> Latest Project </h5>
-
+        <img src="./images/butt.jpeg" alt="Latest Project IMG" class="card_image">
         <p> Project Description <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <span> [Link to my Github!] </span>
+        <span><p> [Link to my Github!] </p></span>
       </div>
-      <div id="skills" class="col-4">
-        <h5> Current Skills </h5>
-
-        <p> Project Description <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <span> [Link to my Resume!] </span>
+      <div id="skills" class="col-12 col-md-4">
+        <h5> Current Skills </h5> <br>
+        <h6> Backend Developement </h6>
+        <ul class="skills">
+          <li> Heroku Deploys </li>
+          <li> Python </Li>
+          <li> API Databases </li>
+          <li> Django </li>
+        </ul>
+        <h6> Frontend Developement </h6>
+        <ul class="skills">
+          <li> Javascript </li>
+          <li> HTML & CSS </Li>
+          <li> Bootstrap </li>
+          <li> React </li>
+        </ul>
+        <span><p> [Link to my Resume!] </p></span>
       </div>
-      <div id="blog" class="col-4">
+      <div id="blog" class="col-12 col-md-4">
         <h5> From The Blog </h5>
 
         <p> Project Description <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <span> [Link to my Blog!] </span>
+        <span><p> [Link to my Blog!] </p></span>
       </div>
     </div>
     <div class="footer row">
-      <p> Copyright 2018. All Rights Reserved </p>
+      <span><p> Copyright 2018. All Rights Reserved </p></span>
     </div>
 
   </div>
