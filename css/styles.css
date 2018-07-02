@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+list-style: none;
+}
+
+.message {
+  text-align: center;
+  padding: 10px 0px;
+  color: #3B2817;
+}
+
+#bottom_panels {
+  margin: 10px 0px;
+  text-align: justify;
+}
+
+#bottom_panels span {
+  color: red;
+}
+
+#bottom_panels h5 {
+  text-align: center;
+
+}
+
+.carousel-inner {
+  height: 400px;
+}
+
+.footer {
+  background-color: #3B2817;
+  color: #fff;
+  padding: 10px 5px;
+  margin-top: 5px;
+}
+
+#projects {
+  align-items: center;
+}
+
+.container {
+  background-color: #F2EADF
+}
+
+.card {
+  margin: 5px;
+}
