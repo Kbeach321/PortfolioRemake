@@ -67,6 +67,7 @@ list-style: none;
 
 /*----------- Message ------------*/
 .message {
+  margin-top: 56px;
   text-align: center;
   padding: 10px 0px;
   color: #3B2817;
@@ -76,7 +77,6 @@ list-style: none;
 #projects {
   margin: 0px -10px;
 }
-
 
 .card {
   margin: 5px;
@@ -88,9 +88,9 @@ background-color: yellow;
 }
 
 /* Controls Image height of card */
-.card img {
+/* .card img {
   height: 200px;
-}
+} */
 
 /*----------- Bottom Panels ------------*/
 #bottom_panels {
@@ -108,10 +108,6 @@ background-color: yellow;
 }
 
 #latest_project {
-  border-right: solid 2px;
-}
-
-#skills {
   border-right: solid 2px;
 }
 
@@ -144,7 +140,6 @@ list-style: initial;
   }
 
   #skills {
-    border-right: none;
     border-bottom: solid 2px;
     margin-bottom: 10px;
   }
@@ -152,6 +147,9 @@ list-style: initial;
   .header img {
     height: 25px;
     width: 25px;
+  }
+  .message {
+    margin-top: 42px;
   }
 }
 
@@ -161,5 +159,8 @@ list-style: initial;
   }
   .navbar .navbar-nav a.nav-link {
     font-size: .8rem;
-
+  }
+  .message {
+    margin-top: 37px;
+  }
 }
