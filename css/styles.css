@@ -11,7 +11,7 @@ list-style: none;
 }
 
 .container {
-  background-color: #F2EADF
+  background-color: #DED59B;
 }
 
 .btn-primary-ltw{
@@ -81,6 +81,10 @@ margin-top: 40px;
   margin: 5px;
   height: 450px;
   text-align: center;
+}
+
+#projects .card {
+  background-color: #9F7B4A;
 }
 
 .card-img-top{
